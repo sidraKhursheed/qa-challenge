@@ -1,15 +1,16 @@
 {
-    "responeTimeout":60000,
-    "video":false,
-    "screenshotonrunfailure":false,
-    "watchforFilechange":true,
-    "baseUrl":"https://opensource-demo.orangehrmlive.com/",
-    "reporter":"mochawesome",
-    "reporterOptions":{
-        "code":false,
-        "overwrite":false,
-        "reportFilename":"Cypress-Report",
-        "autoOpen":"true",
-        "charts":"true"
-    }
+  "responeTimeout": 60000,
+  "video": false,
+  "screenshotonrunfailure": false,
+  "watchforFilechange": false,
+  "baseUrl": "https://opensource-demo.orangehrmlive.com/",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "code": false,
+    "overwrite": false,
+    "reportFilename": "Cypress-Report",
+    "autoOpen": "true",
+    "charts": "true"
+  },
+  "projectId": "71mu3t"
 }
