@@ -1,0 +1,110 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-09-28T16:57:24.418Z",
+    "end": "2021-09-28T16:57:35.455Z",
+    "duration": 11037,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8ee1fa27-fb53-4d97-9a16-2f6096dd0487",
+      "title": "",
+      "fullFile": "cypress/integration/test.spec.js",
+      "file": "cypress/integration/test.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ae896740-fcb4-470f-b3b3-4e1dfd3088d5",
+          "title": "ApplyForLeave",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Succesful Levae Application",
+              "fullTitle": "ApplyForLeave Succesful Levae Application",
+              "timedOut": null,
+              "duration": 10825,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {
+                "message": "CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:\n\n`<a href=\"/index.php/leave/viewLeaveList/reset/1\" id=\"menu_leave_viewLeaveList\">Leave List</a>`\n\nThis element `<a#menu_leave_viewLeaveList>` is not visible because its content is being clipped by one of its parent elements, which has a CSS property of overflow: `hidden`, `scroll` or `auto`\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with",
+                "estack": "CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:\n\n`<a href=\"/index.php/leave/viewLeaveList/reset/1\" id=\"menu_leave_viewLeaveList\">Leave List</a>`\n\nThis element `<a#menu_leave_viewLeaveList>` is not visible because its content is being clipped by one of its parent elements, which has a CSS property of overflow: `hidden`, `scroll` or `auto`\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n    at $Cy.ensureVisibility (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:160518:85)\n    at runAllChecks (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:147840:14)\n    at retryActionability (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:147894:16)\n    at tryCatcher (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:13212:23)\n    at Function.Promise.attempt.Promise.try (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:10486:29)\n    at tryFn (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:165329:61)\n    at whenStable (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:165368:14)\n    at https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:164855:18\n    at tryCatcher (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:13212:23)\n    at Promise._settlePromiseFromHandler (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11147:31)\n    at Promise._settlePromise (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11204:18)\n    at Promise._settlePromise0 (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11249:10)\n    at Promise._settlePromises (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11329:18)\n    at Promise._fulfill (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11273:18)\n    at https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:12887:46\nFrom Your Spec Code:\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\test.spec.js:132:43)",
+                "diff": null
+              },
+              "uuid": "aefc448a-c1a2-43e7-bea8-853f590fa85e",
+              "parentUUID": "ae896740-fcb4-470f-b3b3-4e1dfd3088d5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "aefc448a-c1a2-43e7-bea8-853f590fa85e"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 10825,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "Cypress-Report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "code": false,
+        "overwrite": false,
+        "reportFilename": "Cypress-Report",
+        "autoOpen": "true",
+        "charts": "true"
+      },
+      "version": "5.2.0"
+    }
+  }
+}
